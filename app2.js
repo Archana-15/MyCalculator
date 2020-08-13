@@ -60,8 +60,10 @@ class Calculator {
 
     getDisplayNumber(number) {
         const stringNumber = number.toString()
-        // parsefloat is a function that converts string to a number
-        // split is a function that's avaialble  for a string. It seperates the strings   string s= 2.3.5, s.split('.')[1]
+
+        // The parseFloat() function parses a string and returns a floating point number.
+        //The split() method is used to split a string into an array of substrings, and returns the new array.
+
         const integerDigits = parseFloat(stringNumber.split('.')[0])
         const decimalDigits = stringNumber.split('.')[1]
         let integerDisplay
