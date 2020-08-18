@@ -1,0 +1,26 @@
+{
+  "name": "mycalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archana-15/MyCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Archana-15/MyCalculator/issues"
+  },
+  "homepage": "https://github.com/Archana-15/MyCalculator#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 chrome version"
+  ]
+}
